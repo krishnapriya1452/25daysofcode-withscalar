@@ -1,0 +1,26 @@
+# Return the Change
+for t in range(int(input())):
+    x=int(input())
+    if x<5:
+        x=0
+    elif 5<=x<=14:
+        x=10
+    elif 15<=x<=24:
+        x=20
+    elif 25<=x<=34:
+        x=30
+    elif 35<=x<=44:
+        x=40
+    elif 45<=x<=54:
+        x=50
+    elif 55<=x<=64:
+        x=60
+    elif 65<=x<=74:
+        x=70
+    elif 75<=x<=84:
+        x=80
+    elif 85<=x<=94:
+        x=90
+    elif 95<=x<=100:
+        x=100
+    print(100-x)
