@@ -1,0 +1,8 @@
+# Pass or Fail
+for t in range(int(input())):
+    n,x,p=map(int,input().split())
+    m=x*3-(n-x)
+    if m>=p:
+        print("pass")
+    else:
+        print("fail")
