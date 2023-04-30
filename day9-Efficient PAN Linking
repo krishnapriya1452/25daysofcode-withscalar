@@ -1,0 +1,6 @@
+# Efficient PAN Linking
+for t in range(int(input())):
+    n=int(input())
+    
+    rem=n%20
+    print(rem)
