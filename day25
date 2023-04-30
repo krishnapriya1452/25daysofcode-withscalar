@@ -1,0 +1,13 @@
+# cook your dish here
+for t in range(int(input())):
+    x,y,z=map(int,input().split())
+    time=0
+    if x>3:
+        q=x//3
+        if x%3!=0:
+            time=x*y+(q)*z
+        else:
+            time=x*y+(q-1)*z
+    else:
+        time=x*y
+    print(time)
