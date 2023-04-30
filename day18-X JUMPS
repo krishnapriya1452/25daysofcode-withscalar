@@ -1,0 +1,6 @@
+# X JUMPS
+for t in range(int(input())):
+    x,y=map(int,input().split())
+    c=x//y
+    r=x%y
+    print(c+r)
