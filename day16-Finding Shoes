@@ -1,0 +1,11 @@
+# Finding Shoes
+for t in range(int(input())):
+    n,m=map(int,input().split())
+    c=0
+    if m<n:
+        c+=n-m+n
+    else:
+        c+=n
+    print(c)
+        
+    
