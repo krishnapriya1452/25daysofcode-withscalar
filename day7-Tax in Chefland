@@ -1,0 +1,6 @@
+# Tax in Chefland
+for t in range(int(input())):
+    x=int(input())
+    if x>100:
+        x=x-10
+    print(x)
