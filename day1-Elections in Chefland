@@ -1,0 +1,13 @@
+# Elections in Chefland
+t=int(input())
+x=[];c=0
+for i in range(t):
+    n,x=map(int,input().split())
+    a=list(map(int,input().split()))
+    
+    for i in range(len(a)):
+        a[i]=a[i]-x
+        if a[i]>=0:
+            c=c+1
+    print(c)
+    c=0
